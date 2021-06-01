@@ -7,11 +7,11 @@ using MongoDB.Driver;
 
 namespace Api.Data
 {
-    public class MongoDB
+    public class MongoDatabase
     {
         public IMongoDatabase DB { get; }
 
-        public MongoDB(IConfiguration configuration)
+        public MongoDatabase(IConfiguration configuration)
         {
             try
             {

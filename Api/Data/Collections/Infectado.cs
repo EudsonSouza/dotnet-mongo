@@ -3,7 +3,7 @@ using MongoDB.Driver.GeoJsonObjectModel;
 
 namespace Api.Data.Collections
 {
-    public class Infectado
+    public class Infectado : MongoBaseEntity
     {
         public Infectado(DateTime dataNascimento, string sexo, double latitude, double longitude)
         {
